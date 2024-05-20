@@ -1,0 +1,110 @@
+:root {
+	--base-size: 14px;
+	--base-line-height: 1.28;
+	--base-font-familu: "Roboto", sans-serif;
+	--light-grey: #E5E5E5;
+	--grey: #707683;
+	--white: #ffffff;
+	--yellow: #FEDA00;
+	--light-blue: #5DBDFB;
+	--blue: #1F1C4E;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+/*
+  Basic typography style for copy text
+*/
+
+body {
+	font-family: var(--base-font-familu);
+	font-weight: 400;
+	font-size: var(--base-size);
+	color: var(--blue);
+	line-height: var(--base-line-height);
+	background-color: var(--light-grey);
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+/*
+  Basic styles for links
+*/
+a {
+	color: var(--grey);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--blue);
+	text-decoration: none;
+}
+
+
+/*
+  Basic styles for headings
+*/
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	color: var(--blue);
+	margin: 0 0 12px;
+	font-family: var(--base-font-familu);
+	line-height: var(--base-line-height);
+}
+
+h1,
+.h1 {
+	font-size: 38px;
+}
+
+h2,
+.h2 {
+	font-size: 36px;
+}
+
+h3,
+.h3 {
+	font-size: 28px;
+}
+
+h4,
+.h4 {
+	font-size: 24px;
+}
+
+h5,
+.h5 {
+	font-size: 18px;
+}
+
+h6,
+.h6 {
+	font-size: 14px;
+}
+
+/*
+  Basic styles for container
+*/
+.container {
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}

@@ -1,0 +1,38 @@
+.hero {
+    background-color: var(--yellow);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero__background {
+    padding: 96px 0 100px;
+    background: url(../images/hero-bg.svg) no-repeat;
+    background-position: 100% 50%;
+}
+
+.hero__foreground {
+    max-width: 532px;
+}
+
+.hero__subtitle {
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.hero__button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: var(--light-blue);
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+
+.hero__button:hover,
+.hero__button:active {
+    background-color: transparent;
+    border-color: var(--blue);
+    color: var(--blue);
+}
