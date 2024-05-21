@@ -1,0 +1,85 @@
+@media (min-width: 1024px) {
+    .hero__background {
+        background: url(../images/hero-bg.svg) no-repeat;
+        background-position: 100% 50%;
+    }
+
+    .hero__foreground {
+        max-width: 532px;
+        text-align: left;
+    }
+
+    .nav__toggle {
+        display: none;
+    }
+
+    .header {
+        padding: 0;
+    }
+
+    .header__nav {
+        position: relative;
+        top: 0;
+        transition: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        z-index: 1;
+        visibility: visible;
+        margin-right: -15px;
+    }
+
+    .navigation {
+        display: flex;
+        margin: 0 10px 0;
+    }
+
+    .lang__nav {
+        margin: 0 10px 0;
+    }
+
+    .social__nav {
+        margin: 0;
+    }
+
+    .navigation__link,
+    .social__link,
+    .dropdown__link {
+        padding: 20px 11px 18px;
+        line-height: 1.5;
+    }
+
+    .navigation__link {
+        padding: 20px 14px 16px;
+    }
+
+    .dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: var(--white);
+        min-width: 200px;
+        text-align: left;
+        border-radius: 0 0 12px 12px;
+        padding: 0 0 3px;
+    }
+
+    .fag__accordion .faq__title {
+        padding-right: 20%;
+    }
+}
+
+@media (min-width: 1124px) {
+    .navigation {
+        margin: 0 10px 0;
+    }
+
+    .lang__nav {
+        margin: 0 19px 0 10px;
+    }
+
+
+
+
+}
