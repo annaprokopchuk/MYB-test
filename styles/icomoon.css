@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?87pmmd');
-    src: url('../fonts/icomoon.eot?87pmmd#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?87pmmd') format('truetype'),
-        url('../fonts/icomoon.woff?87pmmd') format('woff'),
-        url('../fonts/icomoon.svg?87pmmd#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?q4gzuq');
+    src: url('../fonts/icomoon.eot?q4gzuq#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?q4gzuq') format('truetype'),
+        url('../fonts/icomoon.woff?q4gzuq') format('woff'),
+        url('../fonts/icomoon.svg?q4gzuq#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -24,6 +24,10 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+    content: "\e904";
 }
 
 .icon-twitter:before {

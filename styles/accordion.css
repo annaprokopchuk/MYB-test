@@ -1,0 +1,86 @@
+.fag__accordion {
+    padding: 20px 0;
+}
+
+.fag__accordion .faq__item {
+    background-color: var(--white);
+    border-radius: 15px;
+    margin-bottom: 16px;
+}
+
+.fag__accordion .faq__item:last-child {
+    margin-bottom: 0;
+}
+
+.fag__accordion .faq__title {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--blue);
+    padding: 16px 20px 19px;
+    padding-right: 15%;
+    position: relative;
+    transition: all 0.3s ease-out;
+}
+
+.fag__accordion .faq__title:hover {
+    color: var(--light-blue);
+}
+
+.fag__accordion .faq__content {
+    padding: 0 10% 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s, padding 0.3s;
+    overflow: hidden;
+}
+
+.faq__item.opened .faq__content {
+    max-height: max-content;
+    padding: 5px 9% 20px 20px;
+}
+
+.fag__accordion__icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid var(--light-blue);
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-out;
+}
+
+.fag__accordion__icon::before,
+.fag__accordion__icon::after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 2px;
+    background-color: var(--light-blue);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-out;
+}
+
+.fag__accordion__icon::after {
+    left: 18%;
+    transform: rotate(90deg)translate(-10%, 0%);
+}
+
+/* .fag__accordion .faq__title:hover .fag__accordion__icon {
+    border-color: var(--blue);
+}
+
+.fag__accordion .faq__title:hover .fag__accordion__icon::before,
+.fag__accordion .faq__title:hover .fag__accordion__icon::after {
+    background-color: var(--blue);
+} */
+
+.fag__accordion .faq__title[data-open="true"] .fag__accordion__icon::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
