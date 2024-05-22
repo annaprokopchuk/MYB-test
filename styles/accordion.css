@@ -71,15 +71,6 @@
     transform: rotate(90deg)translate(-10%, 0%);
 }
 
-/* .fag__accordion .faq__title:hover .fag__accordion__icon {
-    border-color: var(--blue);
-}
-
-.fag__accordion .faq__title:hover .fag__accordion__icon::before,
-.fag__accordion .faq__title:hover .fag__accordion__icon::after {
-    background-color: var(--blue);
-} */
-
 .fag__accordion .faq__title[data-open="true"] .fag__accordion__icon::after {
     left: 50%;
     transform: translate(-50%, -50%);
